@@ -3,7 +3,7 @@ from flask_restful import Api, Resource
 from pymongo import MongoClient
 
 # connecting to MongoDB and my database
-cluster = MongoClient("mongodb+srv://aras:aras8888@pythoncluster.k0toj45.mongodb.net/?retryWrites=true&w=majority")
+cluster = MongoClient("mongodb uri")
 db = cluster['school_epo']
 collection = db['info']
 
